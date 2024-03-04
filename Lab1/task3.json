@@ -1,0 +1,12 @@
+{
+    "MACHINES": ["M1", "M2"],
+    "JOBS": {
+        "A": {"release": 1, "duration": 1, "due": 12, "dependencies" : ["D"]},
+        "B": {"release": 1, "duration": 1, "due": 12, "dependencies" : ["D"]},
+        "C": {"release": 1, "duration": 1, "due": 12, "dependencies" : ["D"]},
+        "D": {"release": 1, "duration": 1, "due": 12, "dependencies" : ["E", "F"]},
+        "E": {"release": 1, "duration": 1, "due": 12, "dependencies" : []},
+        "F": {"release": 1, "duration": 1, "due": 12, "dependencies" : ["G"]},
+        "G": {"release": 1, "duration": 1, "due": 12, "dependencies" : []}
+    }
+}

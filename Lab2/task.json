@@ -1,0 +1,8 @@
+{
+    "JOBS": {
+        "A": {"release": 1, "duration": 2, "due": 2},
+        "B": {"release": 2, "duration": 1, "due": 3},
+        "C": {"release": 2, "duration": 2, "due": 4},
+        "D": {"release": 7, "duration": 2, "due": 8}
+    }
+}

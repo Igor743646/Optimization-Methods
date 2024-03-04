@@ -1,0 +1,10 @@
+{
+    "MACHINES": ["M1", "M2", "M3"],
+    "JOBS": {
+        "J1": {"release": 0, "duration": 1, "due": 8, "sequence": ["M1", "M3", "M3", "M1"]},
+        "J2": {"release": 0, "duration": 1, "due": 8, "sequence": ["M2", "M3"]},
+        "J3": {"release": 0, "duration": 1, "due": 8, "sequence": ["M3", "M1"]},
+        "J4": {"release": 0, "duration": 1, "due": 8, "sequence": ["M1", "M3", "M1"]},
+        "J5": {"release": 0, "duration": 1, "due": 8, "sequence": ["M3", "M3", "M3", "M3"]}
+    }
+}
