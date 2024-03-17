@@ -49,8 +49,7 @@ def create_task(machines_count, vertexes_count, duration, release, due, m=5):
 
     graph = random_dag(vertexes_count, m)
     matrix = [[1 if (i, j) in graph.edges() else 0 for j in range(vertexes_count)] for i in range(vertexes_count)]
-    # for row in matrix:
-    #     print(row)
+
     result["MACHINES"] = MACHINES
     result["JOBS"] = {}
     for i, job in enumerate(JOBS):
