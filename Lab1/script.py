@@ -47,12 +47,6 @@ def create_task(machines_count, vertexes_count, duration, release, due, m=5):
     MACHINES = [f"M{i+1}" for i in range(machines_count)]
     JOBS = list(string.ascii_uppercase[:vertexes_count])
 
-    # matrix = [[random.choice([0]*5 + [1]) if i != j else 0 for j in range(vertexes_count)] for i in range(vertexes_count)]
-    # graph = nx.gnr_graph(vertexes_count, p=0.8)
-    # graph = nx.gnc_graph(vertexes_count)
-    # graph = nx.erdos_renyi_graph(vertexes_count, p=0.1)
-    # graph = nx.gnp_random_graph(vertexes_count, 0.3, directed=True)
-
     graph = random_dag(vertexes_count, m)
     matrix = [[1 if (i, j) in graph.edges() else 0 for j in range(vertexes_count)] for i in range(vertexes_count)]
     # for row in matrix:
