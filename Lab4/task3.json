@@ -1,0 +1,11 @@
+{
+	"MACHINES": ["M1", "M2"], 
+	"JOBS": {
+		"J1": {"release": 0, "duration": [13,2], "due": 5}, 
+		"J2": {"release": 0, "duration": [13,15], "due": 5}, 
+		"J3": {"release": 0, "duration": [4,1], "due": 6}, 
+		"J4": {"release": 0, "duration": [8,9], "due": 7},
+		"J5": {"release": 0, "duration": [12,8], "due": 3},
+		"J6": {"release": 0, "duration": [7,3], "due": 11}
+	}
+}
