@@ -6,5 +6,6 @@
 		"J4": {"release": 0, "duration": 3, "due": 20, "weight": 1},
 		"J5": {"release": 0, "duration": 1, "due": 20, "weight": 4}, 
 		"J6": {"release": 0, "duration": 1, "due": 20, "weight": 4}
-	}
+	},
+	"TAU": 1
 }
