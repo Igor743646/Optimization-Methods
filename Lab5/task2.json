@@ -1,11 +1,11 @@
 {
 	"JOBS": {
-		"J1": {"release": 0, "duration": 1, "due": 20, "weight": 1}, 
-		"J2": {"release": 0, "duration": 5, "due": 20, "weight": 2}, 
-		"J3": {"release": 0, "duration": 3, "due": 20, "weight": 3}, 
-		"J4": {"release": 0, "duration": 2, "due": 20, "weight": 2},
-		"J5": {"release": 0, "duration": 6, "due": 20, "weight": 1}, 
-		"J6": {"release": 0, "duration": 1, "due": 20, "weight": 3}
+		"J1": {"release": 0, "duration": 1, "due": 22, "weight": 1}, 
+		"J2": {"release": 0, "duration": 5, "due": 22, "weight": 2}, 
+		"J3": {"release": 0, "duration": 3, "due": 22, "weight": 3}, 
+		"J4": {"release": 0, "duration": 2, "due": 22, "weight": 2},
+		"J5": {"release": 0, "duration": 6, "due": 22, "weight": 1}, 
+		"J6": {"release": 0, "duration": 1, "due": 22, "weight": 3}
 	},
 	"TAU": 1
 }
