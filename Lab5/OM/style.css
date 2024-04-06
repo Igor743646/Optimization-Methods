@@ -1,0 +1,96 @@
+body {
+    padding: 0px 10% 0px 10%;
+}
+
+input, button {
+    display: inline-block;
+    padding: 0px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 0px solid;
+}
+
+button:hover {
+    background: #33ff99;
+    transition: 0.7s;
+}
+
+input {
+    text-align: center;
+}
+
+.ceil {
+    margin: 1px;
+    height: 40px;
+    width: 40px;
+}
+
+.matrix_ceil {
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.matrix_ceil_header {
+    border: 1px solid transparent;
+}
+
+.bt_ceil {
+    height: 40px;
+    width: 40px;
+}
+
+.inp_ceil {
+    height: 40px;
+    width: 40px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.activated {
+    height: 40px;
+    width: 40px;
+    background-color: #33ff99;
+}
+
+.centered {
+    display: table;
+    text-align: center;
+}
+
+span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#job_number {
+    height: 50px;
+    padding: 10px;
+}
+
+.input_field {
+    margin: 10px;
+}
+
+#job_number_input {
+    width: 30px;
+}
+
+.first_input {
+    padding: 5px;
+    height: 50%;
+}
+
+.field {
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#field {
+    padding: 10px;
+}
