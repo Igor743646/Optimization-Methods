@@ -1,3 +1,5 @@
+const { Console } = require("console");
+
 function GetJobNumber() {
     let job_number = Number($('#job_number_input').val());
 

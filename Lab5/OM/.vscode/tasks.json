@@ -6,7 +6,6 @@
             "type": "shell",
             "command": "dir ${input:fileName} > ${input:outputDir}/info.txt",
             "group": "none",
-            
             "presentation": {
                 "echo": true,
                 "reveal": "always",
@@ -14,8 +13,9 @@
                 "panel": "shared",
                 "showReuseMessage": true,
                 "clear": false
-            }
-        },
+            },
+            "problemMatcher": []
+        }
     ],
     "inputs": [
         {
